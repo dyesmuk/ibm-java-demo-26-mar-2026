@@ -3,7 +3,7 @@ package com.ibm.demo.day1.fundas;
 public class DatatypesDemo {
 
 	public static void main(String[] args) {
-
+		
 		System.out.println("Ranges of primitive datatypes - ");
 		System.out.println("byte min and max values");
 //		byte b1 = -128;

@@ -10,5 +10,4 @@ public class AnotherAccessDemo {
 //		System.out.println(Access.num3);
 		System.out.println(Access.num4);
 	}
-
 }

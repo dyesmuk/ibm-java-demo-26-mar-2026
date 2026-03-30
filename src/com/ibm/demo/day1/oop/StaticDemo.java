@@ -11,7 +11,7 @@ public class StaticDemo {
 
 		// static field - access as ClassName.fieldName
 		System.out.println(StaticDemo.num1);
-		// instance field - assess as objectName.fieldName
+		// instance field - access as objectName.fieldName
 		StaticDemo obj = new StaticDemo();
 		System.out.println(obj.num2);
 

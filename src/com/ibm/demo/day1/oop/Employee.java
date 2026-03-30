@@ -5,11 +5,13 @@ package com.ibm.demo.day1.oop;
 
 public class Employee {
 
+	// static fields - belong to class - common to all objects 
+	static int officePhone;
+
+	// instance fields - belong to objects - unique to each object 
 	int id;
 	String name;
 	double salary;
-//	long[] phones;
-//	Address address;
 
 	void work() {
 		System.out.println("Employee " + name + " is working.");

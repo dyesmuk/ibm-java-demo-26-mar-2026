@@ -6,22 +6,24 @@ public class LocalDemo {
 	int instanceField = 20;
 
 	public static void main(String[] args) {
-		LocalDemo.staticMethod();
+		System.out.println("this is from main method");
+		System.out.println(LocalDemo.staticField);
 		LocalDemo obj = new LocalDemo();
+		System.out.println(obj.instanceField);
+		LocalDemo.staticMethod();
 		obj.instanceMethod();
-		System.out.println(staticField);
-		System.out.println(instanceField);
 	}
 
 	static void staticMethod() {
 		System.out.println("this is from a static method");
-		System.out.println(staticField);
-		System.out.println(instanceField);
+		System.out.println(LocalDemo.staticField);
+		LocalDemo obj = new LocalDemo();
+		System.out.println(obj.instanceField);
 	}
 
 	void instanceMethod() {
 		System.out.println("this is from an instance method");
-		System.out.println(staticField);
+		System.out.println(LocalDemo.staticField);
 		System.out.println(instanceField);
 	}
 

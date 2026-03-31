@@ -17,6 +17,7 @@ public class InheritanceDemo {
 		Phone phone1 = new Phone();
 		phone1.call();
 		phone1.sms();
+		
 		SmartPhone phone2 = new SmartPhone();
 		phone2.call();
 		phone2.sms();
@@ -24,6 +25,8 @@ public class InheritanceDemo {
 		phone2.camera();
 		phone2.music();
 
+		FeaturePhone phone3 = new FeaturePhone();
+		phone3.music();
 	}
 
 }

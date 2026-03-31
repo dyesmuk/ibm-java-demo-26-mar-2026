@@ -1,4 +1,4 @@
-package com.ibm.demo.day2.encap;
+package com.ibm.demo.day2.oop.encapsulation;
 
 public class Employee {
 
@@ -54,7 +54,7 @@ public class Employee {
 
 }
 
-//package com.ibm.demo.day2.encap;
+//package com.ibm.demo.day2.oop.encapsulation;
 //
 //public class Employee {
 //

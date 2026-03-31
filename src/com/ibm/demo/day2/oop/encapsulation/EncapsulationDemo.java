@@ -1,4 +1,4 @@
-package com.ibm.demo.day2.encap;
+package com.ibm.demo.day2.oop.encapsulation;
 
 //encapsulation 
 // bind data (== fields) and code (== methods) together 

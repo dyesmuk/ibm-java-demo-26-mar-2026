@@ -14,6 +14,7 @@ public class StaticDemo {
 		// instance field - access as objectName.fieldName
 		StaticDemo obj = new StaticDemo();
 		System.out.println(obj.num2);
+		System.out.println(obj.num1);
 
 	}
 

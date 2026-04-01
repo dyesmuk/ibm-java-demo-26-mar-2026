@@ -8,7 +8,6 @@ public interface Calc {
 }
 
 
-
 //public interface Calc {
 //
 //	public abstract int addNums(int i, int j);

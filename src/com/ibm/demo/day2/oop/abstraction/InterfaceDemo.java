@@ -13,6 +13,12 @@ public class InterfaceDemo {
 		DemoClass obj = new DemoClass();
 		obj.absMethod();
 		
+
+
+		
+//		DemoInterface obj2 = new DemoInterface();
+		
+		
 	}
 
 }

@@ -1,0 +1,8 @@
+this is 
+sample data 
+from data.txt 
+file. 
+this is 
+sample data 
+from data.txt 
+file. 

@@ -13,7 +13,8 @@ public class UncheckedExceptionDemo {
 		try {
 			System.out.println(num1 / num2);
 		} catch (ArithmeticException e) {
-			System.out.println("Do not divide by 0, you fool!");
+			System.out.println("Do not divide by 0!\nTry again");
+			UncheckedExceptionDemo.divide();
 		}
 		finally {
 			sc.close();

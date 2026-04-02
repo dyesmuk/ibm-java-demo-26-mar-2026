@@ -11,7 +11,7 @@ public class StreamsApiDemo {
 		List<Employee> employees = new ArrayList<Employee>(Arrays.asList(new Employee(1, "Monu", 90000),
 				new Employee(2, "Sonu", 95000), new Employee(3, "Tonu", 92000)));
 
-		System.out.println(employees.size());
+		System.out.println("Number of employees: " + employees.size());
 		System.out.println(employees);
 
 	}

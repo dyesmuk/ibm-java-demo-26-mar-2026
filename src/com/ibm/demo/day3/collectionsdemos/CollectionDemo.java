@@ -12,6 +12,20 @@ public class CollectionDemo {
 
 		System.out.println("size " + myFriends.size());
 		System.out.println(myFriends);
+		myFriends.add("Sonu");
+		myFriends.add("Monu");
+		System.out.println("size " + myFriends.size());
+		System.out.println(myFriends);
+		myFriends.remove(0);
+		System.out.println("size " + myFriends.size());
+		System.out.println(myFriends);
+		myFriends.add("Tonu");
+		myFriends.add(10.50);
+		myFriends.add(20);
+		myFriends.add(false);
+		System.out.println("size " + myFriends.size());
+		System.out.println(myFriends);
+//		myFriends.
 		
 
 		

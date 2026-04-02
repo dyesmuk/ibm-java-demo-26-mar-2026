@@ -1,9 +1,11 @@
 package com.ibm.demo.day4.streamsapi;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Stream;
+//import java.util.ArrayList;
+//import java.util.Arrays;
+//import java.util.List;
+//import java.util.stream.Stream;
+
+import java.util.*;
 
 public class StreamsApiDemo {
 

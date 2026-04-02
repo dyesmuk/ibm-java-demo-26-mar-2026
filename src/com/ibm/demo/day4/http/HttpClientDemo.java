@@ -1,6 +1,8 @@
 package com.ibm.demo.day4.http;
 
-import java.net.http.*;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.io.IOException;
 import java.net.URI;
 
@@ -10,10 +12,17 @@ public class HttpClientDemo {
 
 		System.out.println("Start");
 
-		HttpClient client = HttpClient.newHttpClient();
 		String apiUrl = "https://jsonplaceholder.typicode.com/users/2";
 
-		HttpRequest request = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET().build();
+		HttpClient client = HttpClient.newHttpClient();
+
+		HttpRequest request = HttpRequest.newBuilder()
+
+				.uri(URI.create(apiUrl))
+
+				.GET()
+
+				.build();
 
 		HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 

@@ -12,7 +12,13 @@ public class StreamsApiDemo {
 				new Employee(2, "Sonu", 95000), new Employee(3, "Tonu", 92000)));
 
 		System.out.println("Number of employees: " + employees.size());
-		System.out.println(employees);
+		
+		System.out.println("1. List of employees using for loop: ");
+
+		System.out.println("2. List of employees using for each loop: ");
+
+		System.out.println("3. List of employees using forEach method: ");
+
 
 	}
 

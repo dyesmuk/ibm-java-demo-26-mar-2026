@@ -1,7 +1,7 @@
 # Clean Code — Java Foundation Level 0.5 (Internal)
 
 > A structured learning guide for writing readable, maintainable, and professional Java code.
-> Intended for developers who have completed Java basics and are ready to adopt clean coding practices.
+> **Duration:** 0.5 days | **Facilitation:** Internal trainers | **Track:** Java Foundation
 
 ---
 
@@ -29,9 +29,9 @@ Clean code is code that is **easy to read, easy to understand, and easy to chang
 
 Clean code is not about being clever. It is about being **clear**. In a professional team environment, your code will be read many more times than it is written — by your teammates, your future self, and during code reviews.
 
-### Why it matters at Foundation Level
+### Why it matters in this session
 
-At Level 0.5, the goal is not perfect architecture. It is to build **habits** early:
+This is a half-day session facilitated by internal trainers as part of the Java Foundation track. The goal is to build **habits** early:
 - Name things clearly
 - Keep methods small
 - Remove noise
@@ -505,7 +505,7 @@ public void printEntityReport(String name, String email) {
 
 ## 7. Single Responsibility Principle (SRP) — Intro
 
-A class should have **only one reason to change**. This is the *S* in SOLID. At Level 0.5, the goal is to **recognise the smell** — not to perfectly design class hierarchies.
+A class should have **only one reason to change**. This is the *S* in SOLID. Within this session, the goal is to **recognise when a class is doing too much** — not to perfectly design class hierarchies.
 
 ### 7.1 Core Rules
 
@@ -692,7 +692,7 @@ max_line_length = 120
 
 | Resource | Type | Notes |
 |----------|------|-------|
-| *Clean Code* — Robert C. Martin | Book | The canonical reference; Chapters 1–5 are essential for this level |
+| *Clean Code* — Robert C. Martin | Book | The canonical reference; Chapters 1–5 align directly with this session |
 | *The Pragmatic Programmer* — Hunt & Thomas | Book | Broader software craftsmanship; Chapter on DRY is excellent |
 | *Refactoring* — Martin Fowler (2nd Ed.) | Book | Practical patterns for improving existing code |
 | Google Java Style Guide | Online | `google.github.io/styleguide/javaguide.html` |
@@ -704,10 +704,11 @@ max_line_length = 120
 
 | Field | Value |
 |-------|-------|
-| Level | Foundation 0.5 |
-| Track | Java Internal Training |
+| Duration | 0.5 days (half day) |
+| Facilitation | Internal trainers |
+| Track | Java Foundation |
 | Status | Internal Use Only |
-| Next Level | Foundation 1.0 — SOLID Principles Deep Dive |
+| Next Session | Java Foundation — SOLID Principles Deep Dive |
 
 ---
 

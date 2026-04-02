@@ -38,6 +38,14 @@ public class StreamsApiDemo {
 				.map(e -> new Employee(e.getId(), e.getName(), e.getSalary() * 1.10)).toList();
 		updatedEmployees.forEach(e -> System.out.println(e.toString()));
 
+		// Also updates original employees list
+//		List<Employee> updatedEmployees = employees.stream().map(emp -> {
+//			emp.setSalary(emp.getSalary() * 1.10);
+//			return emp;
+//		}).toList();
+
+		updatedEmployees.forEach(e -> System.out.println(e.toString()));
+		employees.forEach(e -> System.out.println(e.toString()));
 
 	}
 }

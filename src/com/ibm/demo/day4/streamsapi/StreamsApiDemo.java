@@ -15,7 +15,11 @@ public class StreamsApiDemo {
 		
 		System.out.println("1. List of employees using for loop: ");
 
+		for (int i = 0; i)
+			System.out.println();
+
 		System.out.println("2. List of employees using for each loop: ");
+		
 
 		System.out.println("3. List of employees using forEach method: ");
 

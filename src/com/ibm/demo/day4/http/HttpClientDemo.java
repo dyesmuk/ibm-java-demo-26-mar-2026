@@ -13,23 +13,13 @@ public class HttpClientDemo {
 		System.out.println("Start");
 
 		String apiUrl = "https://jsonplaceholder.typicode.com/users/2";
-
 		HttpClient client = HttpClient.newHttpClient();
-
-		HttpRequest request = HttpRequest.newBuilder()
-
-				.uri(URI.create(apiUrl))
-
-				.GET()
-
-				.build();
+		HttpRequest request = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET().build();
 
 		HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
 		System.out.println("Status: " + response.statusCode());
-
 		System.out.println("Body: " + response.body());
-
 		System.out.println("End");
 	}
 
